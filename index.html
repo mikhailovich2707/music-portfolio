@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Музыкальное портфолио</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <!-- Hero Section -->
+    <header class="bg-gradient-to-r from-purple-500 to-indigo-600 text-white min-h-screen flex items-center">
+        <div class="container mx-auto px-4">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">Музыкальный продакшн</h1>
+            <p class="text-xl mb-8">Создаю уникальные музыкальные решения для брендов</p>
+            <a href="#portfolio" class="bg-white text-purple-600 px-6 py-3 rounded-full font-bold hover:bg-gray-100 transition">
+                Слушать работы
+            </a>
+        </div>
+    </header>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-center">Портфолио</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- KSENIASHNAIDER Project -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-lg">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">KSENIASHNAIDER Brand Track</h3>
+                        <p class="text-gray-600 mb-4">Концептуальный трек для модного бренда, соединяющий наследие с инновациями</p>
+                        <audio controls class="w-full mb-4">
+                            <source src="assets/audio/kseniashnaider-concept.mp3" type="audio/mpeg">
+                            Ваш браузер не поддерживает аудио элемент.
+                        </audio>
+                        <div class="flex gap-2">
+                            <span class="bg-purple-100 text-purple-600 px-3 py-1 rounded-full text-sm">Бренд</span>
+                            <span class="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm">AI-Enhanced</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-center">Обо мне</h2>
+            <div class="max-w-3xl mx-auto text-lg leading-relaxed">
+                <p class="mb-6">
+                    10 лет опыта создания музыки, от FL Studio до Ableton. 
+                    Сейчас исследую возможности AI в музыкальной индустрии, 
+                    работая с передовыми инструментами как Suno.
+                </p>
+                <p>
+                    Специализируюсь на создании уникальных музыкальных решений 
+                    для брендов, соединяя традиционные подходы с инновационными технологиями.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Stack -->
+    <section id="tech" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-center">Технологии</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-3xl mx-auto">
+                <div class="text-center">
+                    <i class="fas fa-music text-4xl mb-4 text-purple-600"></i>
+                    <h3 class="font-bold">Ableton Live</h3>
+                </div>
+                <div class="text-center">
+                    <i class="fas fa-code-branch text-4xl mb-4 text-purple-600"></i>
+                    <h3 class="font-bold">FL Studio</h3>
+                </div>
+                <div class="text-center">
+                    <i class="fas fa-brain text-4xl mb-4 text-purple-600"></i>
+                    <h3 class="font-bold">Suno AI</h3>
+                </div>
+                <div class="text-center">
+                    <i class="fas fa-wave-square text-4xl mb-4 text-purple-600"></i>
+                    <h3 class="font-bold">Sound Design</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-center">Связаться</h2>
+            <div class="max-w-xl mx-auto">
+                <div class="flex justify-center space-x-6">
+                    <a href="#" class="text-gray-600 hover:text-purple-600">
+                        <i class="fab fa-linkedin text-3xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-600 hover:text-purple-600">
+                        <i class="fab fa-telegram text-3xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-600 hover:text-purple-600">
+                        <i class="far fa-envelope text-3xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2024 Музыкальное портфолио. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
